@@ -26,7 +26,7 @@ namespace GameProgII_Interfaces_ZanderG
             }
             else if (_xFromPlayer > _yFromPlayer && _xFromPlayer > 0 && _yFromPlayer > 0)
             {
-                if (position._yPos + 1 <= 0) position._yPos++;
+                if (position._yPos + 1 <= 10) position._yPos++;
             }
             else
             {

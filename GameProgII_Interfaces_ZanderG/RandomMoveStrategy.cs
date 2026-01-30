@@ -26,7 +26,7 @@ namespace GameProgII_Interfaces_ZanderG
             {
                 _xDirection = position._xPos - 1;
 
-                if(_xDirection >= 0) position._xPos--;
+                if(_xDirection >= 10) position._xPos--;
             }
             else if(direction == 3)
             {
