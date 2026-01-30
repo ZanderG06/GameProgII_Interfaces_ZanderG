@@ -47,7 +47,7 @@ namespace GameProgII_Interfaces_ZanderG
                 }
                 else
                 {
-                    if(position._yPos + 1 <= 10) position._yPos++;
+                    if(position._yPos + 1 <= 20) position._yPos++;
                 }
             }
 
